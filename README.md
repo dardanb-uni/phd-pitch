@@ -41,7 +41,8 @@
  <p>paraphrase-MiniLM-L6-v2 – i lehte, performance e pranueshme</p>
  <p>intfloat/e5-base – i trajnuar per kerkesa me te ndryshme</p>
  <p>microsoft/mpnet-base – me i sakte, por me i ngadalte </p>
-  
+
+  <b> Zgjidhje jo optimale </b>
   <ol>
     <li><strong>Fjalitë shndërrohen në vektorë</strong> (embedding)<br>
         – Çdo fjali kthehet në një përfaqësim numerik me kuptim semantik
@@ -53,8 +54,9 @@
         – Koordinon pyetjet, kujtesën dhe vendimmarrjen
     </li>
     <li><strong>GPT gjeneron përgjigjet</strong><br>
-        – Bazohet në kontekstin e momentit dhe kujtesën historike
+        – Bazohet në kontekstin e momentit dhe kujtesën historike + pergjigjjet e dhena me heret qe ruhen ne nje databaze shtese te strukturuar (SQL)
     </li>
+    
   </ol>
 
   <hr>
