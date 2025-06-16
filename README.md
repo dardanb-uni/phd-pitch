@@ -2,7 +2,6 @@
 <html lang="sq">
 <head>
   <meta charset="UTF-8">
-  <title>Sistemet me Agjentë të Shumëfishtë dhe Kujtesë në LLM</title>
 </head>
 <body>
   <h1>Sistemet me Agjentë të Shumëfishtë dhe Kujtesë në Modelet Gjuhësore të Mëdha (LLM)</h1>
@@ -49,13 +48,72 @@
  <img src="https://matthewmanela.com/wp-content/uploads/2023/10/image-3.png" />
   <hr>
 
-  
-
   <h3>Qëllimi</h3>
   <p>
     Të krijohet një sistem ku <strong>agjentet bashkëpunojne</strong>, ruajnë informacionin dhe 
     <strong>marrin vendime</strong> pa ndërhyrje të vazhdueshme njerëzore – një AI që është 
     <em>jo vetëm reaktive</em>, por edhe <em>proaktive</em>.
   </p>
+
+  <h3>Si e zgjidhim problemin? – Arkitektura dhe Mekanizmi</h3>
+<p>
+  Sistemi funksionon si një rrjet i organizuar agjentësh LLM që punojnë së bashku dhe mësojnë nga përvoja. 
+  Zgjidhja ndahet në tre shtylla kryesore:
+</p>
+
+<ol>
+  <li><strong>Bashkëpunimi dinamik ndërmjet agjentëve</strong>
+    <ul>
+      <li>Çdo agjent ka një rol specifik (analizues, kritik, vendimmarrës, etj.)</li>
+      <li>Komunikojnë përmes një strukture të kontrolluar (feed-forward ose event-driven)</li>
+      <li>Zgjedhja e agjentëve aktivizohet në bazë të performancës së mëparshme ("Agent Importance Score")</li>
+    </ul>
+  </li>
+
+  <li><strong>Kujtesa semantike dhe episodike</strong>
+    <ul>
+      <li>Embedding-et ruhen në një vektor-database (Pinecone)</li>
+      <li>Secili agjent mund të lexojë, shkruajë dhe modifikojë kujtimin sipas kontekstit</li>
+      <li>Kujtesa është e ndarë në: 
+        <ul>
+          <li><em>Episodike</em> – për ngjarje të veçanta dhe biseda të kaluara</li>
+          <li><em>Semantike</em> – për konceptet, definicionet dhe modelet e përgjithshme</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+  <li><strong>Introspeksion dhe vetë-përmirësim</strong>
+    <ul>
+      <li>Pas çdo përgjigjeje, sistemi kryen analizë të brendshme: “A është kjo zgjidhja më e mirë?”</li>
+      <li>Agjentët rishikojnë përgjigjen dhe sugjerojnë përmirësime</li>
+      <li>Procesi përsëritet disa herë deri në përmirësim ose stabilizim</li>
+    </ul>
+  </li>
+</ol>
+
+<hr>
+
+<h3>Shembull rrjedhe pune</h3>
+<ol>
+  <li>Input: Pyetje nga përdoruesi (p.sh. analizë e një survey)</li>
+  <li>Agjenti analizues nxjerr qëllimin dhe pyetjet relevante</li>
+  <li>Agjenti memorie rikthen kontekst të ngjashëm nga e kaluara</li>
+  <li>Agjenti përgjigjës jep draftin e parë</li>
+  <li>Agjenti kritik analizon draftin dhe sugjeron ndryshime</li>
+  <li>Agjenti përgjigjës përmirëson draftin bazuar në feedback</li>
+  <li>Output: Përgjigje e përmirësuar dhe e arkivuar për përdorim të ardhshëm</li>
+</ol>
+
+<hr>
+
+<h3>Çfarë pritet të arrihet?</h3>
+<ul>
+  <li>Reduktim i gabimeve dhe pasaktësive në përgjigje</li>
+  <li>Koherencë më e lartë gjatë bashkëbisedimeve të gjata</li>
+  <li>Vetë-përmirësim nga iteracion në iteracion pa trajnime shtesë</li>
+  <li>Përdorim efikas i memories për personalizim dhe përshtatje</li>
+</ul>
+
 </body>
 </html>
