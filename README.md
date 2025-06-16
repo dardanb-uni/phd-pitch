@@ -45,22 +45,8 @@
  <b> Ruajtja e embeddings </b>
  <img src="https://i.imgur.com/SgCr687.jpeg" />
 
-  <b> Zgjidhje jo optimale </b>
-  <ol>
-    <li><strong>Fjalitë shndërrohen në vektorë</strong> (embedding)<br>
-        – Çdo fjali kthehet në një përfaqësim numerik me kuptim semantik
-    </li>
-    <li><strong>Ruajtja në bazë vektoriale</strong> psh ne (Pinecone)<br>
-        – Lejon kërkime të shpejta dhe të sakta sipas kuptimit
-    </li>
-    <li><strong>Langchain organizon logjikën dhe agjentët</strong><br>
-        – Koordinon pyetjet, kujtesën dhe vendimmarrjen
-    </li>
-    <li><strong>GPT gjeneron përgjigjet</strong><br>
-        – Bazohet në kontekstin e momentit dhe kujtesën historike + pergjigjjet e dhena me heret qe ruhen ne nje databaze shtese te strukturuar (SQL)
-    </li>
-    
-  </ol>
+ <b> Si duket nje 3D databaze me vektor </b>  
+ <img src="https://matthewmanela.com/wp-content/uploads/2023/10/image-3.png" />
   <hr>
 
   
