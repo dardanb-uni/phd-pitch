@@ -42,6 +42,9 @@
  <p>intfloat/e5-base – i trajnuar per kerkesa me te ndryshme</p>
  <p>microsoft/mpnet-base – me i sakte, por me i ngadalte </p>
 
+ <b> Ruajtja e embeddings </b>
+ <img src="https://www.researchgate.net/profile/Gururaj-H-L-2/publication/350579825/figure/fig8/AS:1086328603189263@1636012330458/Word-embedding-representation-in-vector-space-Courtesy-David-Rozado-24.png" />
+
   <b> Zgjidhje jo optimale </b>
   <ol>
     <li><strong>Fjalitë shndërrohen në vektorë</strong> (embedding)<br>
@@ -58,7 +61,6 @@
     </li>
     
   </ol>
-
   <hr>
 
   
