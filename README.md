@@ -31,6 +31,17 @@
   <hr>
 
   <h3>Si funksionon një LLM?</h3>
+  <p>Semantika ne embeddings</p>
+  <img src="https://www.kdnuggets.com/wp-content/uploads/arya_vector_databases_important_llms_3.png" />
+
+  <p> Llojet e embeddings</p>
+ 
+  <p> all-MiniLM-L6-v2 – i shpejte, i mire per kerkim semantik </p>
+ <p>BAAI/bge-base-en-v1.5 – shume i mire per rikthim informacioni</p>
+ <p>paraphrase-MiniLM-L6-v2 – i lehte, performance e pranueshme</p>
+ <p>intfloat/e5-base – i trajnuar per kerkesa me te ndryshme</p>
+ <p>microsoft/mpnet-base – me i sakte, por me i ngadalte </p>
+  
   <ol>
     <li><strong>Fjalitë shndërrohen në vektorë</strong> (embedding)<br>
         – Çdo fjali kthehet në një përfaqësim numerik me kuptim semantik
