@@ -96,13 +96,13 @@
 
 <h3>Shembull rrjedhe pune</h3>
 <ol>
-  <li>Input: Pyetje nga përdoruesi (p.sh. analizë e një survey)</li>
-  <li>Agjenti analizues nxjerr qëllimin dhe pyetjet relevante</li>
-  <li>Agjenti memorie rikthen kontekst të ngjashëm nga e kaluara</li>
-  <li>Agjenti përgjigjës jep draftin e parë</li>
+  <li>Input: Pyetje nga perdoruesi (p.sh. analizë e një survey)</li>
+  <li>Agjenti analizues nxjerr qellimin dhe pyetjet relevante</li>
+  <li>Agjenti memorie rikthen kontekst te ngjashëm nga e kaluara</li>
+  <li>Agjenti pergjigjes jep draftin e pare</li>
   <li>Agjenti kritik analizon draftin dhe sugjeron ndryshime</li>
-  <li>Agjenti përgjigjës përmirëson draftin bazuar në feedback</li>
-  <li>Output: Përgjigje e përmirësuar dhe e arkivuar për përdorim të ardhshëm</li>
+  <li>Agjenti pergjigjes permirëson draftin bazuar ne feedback</li>
+  <li>Output: Pergjigje e permiresuar për perdorim të ardhshem</li>
 </ol>
 
 <hr>
@@ -111,8 +111,6 @@
 <ul>
   <li>Reduktim i gabimeve dhe pasaktësive në përgjigje</li>
   <li>Koherencë më e lartë gjatë bashkëbisedimeve të gjata</li>
-  <li>Vetë-përmirësim nga iteracion në iteracion pa trajnime shtesë</li>
-  <li>Përdorim efikas i memories për personalizim dhe përshtatje</li>
 </ul>
 
 </body>
